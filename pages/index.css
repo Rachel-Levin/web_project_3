@@ -33,8 +33,8 @@
 @import url('../blocks/place/place.css');
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
-@import url('../blocks/place/__row1/place__row1.css');
-@import url('../blocks/place/__row2/place__row2.css');
+@import url('../blocks/place/__first-row/place__first-row.css');
+@import url('../blocks/place/__second-row/place__second-row.css');
 @import url('../blocks/place/__title/place__title.css');
 @import url('../blocks/place/__website/place__website.css');
 @import url('../blocks/place/__website-link/place__website-link.css');

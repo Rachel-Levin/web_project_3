@@ -1,14 +1,15 @@
 .footer {
     justify-content: space-between;
-    min-height: 134px;
+    /* min-height: 134px; */
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    margin-top: 90px;
 }
 
 @media screen and (max-width: 896px) {
     .footer {
-        min-height: 130px;
+        /* min-height: 130px; */
     }
 }
 

@@ -1,4 +1,4 @@
-.place__row1 {
+.place__first-row {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -6,7 +6,7 @@
     }
     
     @media screen and (max-width: 540px) {
-        .place__row1 {
+        .place__first-row {
             flex-direction: column;
             align-items: flex-start;
             margin-left: 16px;
