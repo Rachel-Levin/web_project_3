@@ -1,7 +1,6 @@
 .cover__link {
-    background-image: url(../images/cover-route-66.jpg);
+    background-image: url(../../../images/cover-route-66.jpg);
     height: 740px;
-    display: block;
     background-position: center;
     background-size: cover;
     display: flex;
