@@ -1,0 +1,36 @@
+.cover__link {
+    background-image: url(../images/cover-route-66.jpg);
+    height: 740px;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    opacity: 1;
+    position: relative;
+}
+
+/* @media screen and (max-width: 896px) {
+    .cover__link {
+        width: 73%;
+    }
+} */
+
+
+.cover__link:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.3;
+    transition-property: opacity;
+}
+
+.cover__link:hover:after {
+    opacity: 0.7;
+}

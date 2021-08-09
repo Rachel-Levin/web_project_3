@@ -1,0 +1,31 @@
+.article {
+    width: 58%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 92px;
+
+}
+
+@media screen and (max-width: 1184px) {
+    .article {
+        width: 77%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .article {
+        margin-top: 88px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .article {
+            margin-top: 64px;
+            width: calc(100% - 32px);
+            margin-right: 16px;
+            margin-left: 16px;
+        }
+}

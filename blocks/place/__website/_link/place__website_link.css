@@ -1,0 +1,18 @@
+.place__website_link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin-top: 4px;
+    margin-bottom: 0;
+    color: white;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    opacity: 1;
+}
+
+.place__website_link:hover {
+    opacity: 0.8;
+}

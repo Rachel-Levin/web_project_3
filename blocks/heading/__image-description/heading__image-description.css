@@ -1,0 +1,15 @@
+.heading__image-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 540px) {
+    .heading__image-description {
+            margin-left: 16px;
+        }
+    }
