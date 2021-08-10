@@ -8,6 +8,12 @@
     margin-top: 8px;
 }
 
+@media screen and (max-width: 896px) {
+    .heading__image-description {
+            margin-left: 24px;
+        }
+    }
+
 @media screen and (max-width: 540px) {
     .heading__image-description {
             margin-left: 16px;

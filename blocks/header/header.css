@@ -3,17 +3,23 @@
     flex-direction: row;
     align-content: space-between;
     justify-content: space-between;
-    width: calc(100% - 100px*2);
     margin-top: 34px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 @media screen and (max-width: 1184px) {
     .header {
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .header {
+        margin-right: 24px;
+        margin-left: 24px;
+
     }
 }
 
@@ -22,6 +28,5 @@
         margin-top: 20px;
         margin-left: 16px;
         margin-right: 16px;
-        width: calc(100% - 32px);
     }
 }

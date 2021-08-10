@@ -1,14 +1,15 @@
 .footer__links {
-        margin-bottom: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 211px;
     }
     
     @media screen and (max-width: 540px) {
         .footer__links {
-            display: flex;
             flex-direction: column;
-            justify-content: space-between;
             align-items: flex-start;
-            height: 136px;
             margin-bottom: 0;
             }
     }

@@ -2,27 +2,3 @@
     max-width: 1184px;
     margin: 0 auto;
 }
-
-@media screen and (max-width: 1184px) {
-    .page__container {
-        max-width: unset;
-        margin-left: 48px;
-        margin-right: 48px;
-    }
-}
-
-@media screen and (max-width: 896px) {
-    .page__container {
-        max-width: unset;
-        margin-left: 24px;
-        margin-right: 24px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .page__container {
-        max-width: unset;
-        margin-left: 0;
-        margin-right: 0;
-    }
-}

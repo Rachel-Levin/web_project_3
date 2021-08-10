@@ -2,28 +2,11 @@
     margin: 64px auto 0;
     display: block;
     width: 100%;
+    margin-top: 64px;
 }
 
 @media screen and (max-width: 1184px) {
     .heading__image {
             margin-top: 56px;
-        }
-}
-
-
-@media screen and (max-width: 896px) {
-    .heading__image {
-        width: calc(100% + 48px);
-        margin-left: -24px;
-        margin-right: -24px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .heading__image {
-            margin-top: 40px;
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0;
         }
 }
